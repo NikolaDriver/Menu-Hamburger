@@ -114,27 +114,29 @@ body {
 .menu__icon {
 }
 .icon-menu {
+	display: none;
 }
 .icon-menu__line {
 }
+/*-----------------------------*/
 .page {
+	padding-top: 6.25rem;
+	padding-bottom: 1.5625rem;
 }
 .page__container {
+	line-height: 1.5rem;
+	display: grid;
+	gap: 0.9375rem;
 }
 .page__title {
+	font-weight: 700;
+	color: #dac924;
 }
-.home {
+h1.page__title {
+	font-size: 2.125rem;
 }
-.about {
+h2.page__title {
+	font-size: 1.5rem;
 }
-.products {
-}
-.news {
-}
-.events {
-}
-.blog {
-}
-.contacts {
-}
+
 /*-----------------------------*/

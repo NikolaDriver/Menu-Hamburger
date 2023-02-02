@@ -1,6 +1,7 @@
 /*----------------Reset-------------*/
-::before,
-::after {
+*,
+*::before,
+*::after {
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -65,8 +66,8 @@ body {
 [class*="__container"] {
 		max-width: 81.25rem;
 		margin: 0 auto;
-		padding-left: 0.9374rem;
-		padding-right: 0.9374rem;
+		padding-left: 0.9375rem;
+		padding-right: 0.9375rem;
 }
 /*-----------------------------*/
 .header {
@@ -184,7 +185,7 @@ body {
 		transform: rotate(-45deg);
 	}
 	.menu-open .icon-menu::after {
-		top: calc(50% - 0.0625rem);
+		bottom: calc(50% - 0.0625rem);
 		transform: rotate(45deg);
 	}
 	.menu-open .icon-menu__line {
@@ -198,7 +199,7 @@ body {
 	padding-bottom: 1.5625rem;
 }
 .page__container {
-	line-height: 1.5rem;
+	line-height: 1.5;
 	display: grid;
 	gap: 0.9375rem;
 }
